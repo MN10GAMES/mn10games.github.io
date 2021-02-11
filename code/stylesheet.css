@@ -1,15 +1,82 @@
-﻿body {
+﻿* {
+    margin: 0;
+}
+
+header {
+    background-color: #37DEC2;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Pages {
+    margin-top: 1.375%;
+    font-family: Artifika;
+    font-size: 1.25vw;
+    color: #F0FFFF;
+    white-space: nowrap;
+}
+
+#Pages_AboutMe {
+    margin-left: 12%;
+    margin-right: 12%
+}
+
+#Pages_MyGames {
+    margin-right: 12%
+}
+
+#Pages_MyApps {
+    margin-left: 12%;
+}
+
+#Pages_ContactMe {
+    margin-left: 12%;
+    margin-right: 12%
+}
+
+#Logo {
+    width: 4%
+}
+
+body {
     background-color: #F0FFFF;
 }
 
-#Malick_Img {
-    height: auto;
-    max-width: 20%;
+.Full_Page {
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    display: flex;
 }
 
-.Full_Page {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;
+#Malick_Profile {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    text-align: center;
+}
+
+#Name {
+    font-family: Artifika;
+    font-size: 2.75vw;
+    color: #555959;
+    margin-top: 4%;
+    margin-bottom: -6%;
+}
+
+#Pseudo {
+    font-family: Artifika;
+    font-size: 2.75vw;
+    color: #AAACAC;
+}
+
+.Text {
+    margin-left: 4%;
+    font-family: 'Open Sans';
+    font-size: 1.5vw;
+    line-height: 155%
 }
