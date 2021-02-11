@@ -1,0 +1,15 @@
+﻿body {
+    background-color: #F0FFFF;
+}
+
+#Malick_Img {
+    height: auto;
+    max-width: 20%;
+}
+
+.Full_Page {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
