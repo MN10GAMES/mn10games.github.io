@@ -2,6 +2,16 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Artifika_upload;
+    src: url(../fonts/Artifika/Artifika-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSans_upload;
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
 header {
     background-color: #37DEC2;
     position: fixed;
@@ -13,7 +23,7 @@ header {
 
 .Pages {
     margin-top: 1.375%;
-    font-family: Artifika;
+    font-family: Artifika_upload;
     font-size: 1.25vw;
     color: #F0FFFF;
     white-space: nowrap;
@@ -61,7 +71,7 @@ body {
 }
 
 #Name {
-    font-family: Artifika;
+    font-family: Artifika_upload;
     font-size: 2.75vw;
     color: #555959;
     margin-top: 4%;
@@ -69,14 +79,14 @@ body {
 }
 
 #Pseudo {
-    font-family: Artifika;
+    font-family: Artifika_upload;
     font-size: 2.75vw;
     color: #AAACAC;
 }
 
 .Text {
     margin-left: 4%;
-    font-family: 'Open Sans';
+    font-family: OpenSans_upload;
     font-size: 1.5vw;
     line-height: 155%
 }
