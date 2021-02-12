@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\code"
+    "\\code",
+    "\\fonts",
+    "\\fonts\\OpenSans",
+    "\\images"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\fonts\\OpenSans",
   "PreviewInSolutionExplorer": false
 }
