@@ -20,11 +20,11 @@ button {
 
 @keyframes pulse {
     from {
-        opacity: .5
+        color: #FFF5F0
     }
 
     to {
-        opacity: 1
+        color: #262524
     }
 }
 
