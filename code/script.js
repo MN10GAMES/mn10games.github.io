@@ -15,6 +15,10 @@ window.onscroll = function () {
 
 function scrollFinished() {
     document.body.classList.remove('Sparkles')
+    document.getElementById("Pages_MyGames").style.removeProperty("background-color");
+    document.getElementById("Pages_AboutMe").style.removeProperty("background-color");
+    document.getElementById("Pages_MyApps").style.removeProperty("background-color");
+    document.getElementById("Pages_ContactMe").style.removeProperty("background-color");
 }
 
 function close_overlay() {
@@ -32,4 +36,32 @@ function close_overlay() {
     if (scrollTimer != -1)
         clearTimeout(scrollTimer);
     scrollTimer = window.setTimeout("scrollFinished()", 250);
+}
+
+function select_about_me() {
+    document.getElementById("Pages_AboutMe").style.backgroundColor = "#30BFA7";
+    document.getElementById("Pages_MyGames").style.removeProperty("background-color");
+    document.getElementById("Pages_MyApps").style.removeProperty("background-color");
+    document.getElementById("Pages_ContactMe").style.removeProperty("background-color");
+}
+
+function select_my_games() {
+    document.getElementById("Pages_MyGames").style.backgroundColor = "#30BFA7";
+    document.getElementById("Pages_AboutMe").style.removeProperty("background-color");
+    document.getElementById("Pages_MyApps").style.removeProperty("background-color");
+    document.getElementById("Pages_ContactMe").style.removeProperty("background-color");
+}
+
+function select_my_apps() {
+    document.getElementById("Pages_MyApps").style.backgroundColor = "#30BFA7";
+    document.getElementById("Pages_MyGames").style.removeProperty("background-color");
+    document.getElementById("Pages_AboutMe").style.removeProperty("background-color");
+    document.getElementById("Pages_ContactMe").style.removeProperty("background-color");
+}
+
+function select_contact_me() {
+    document.getElementById("Pages_ContactMe").style.backgroundColor = "#30BFA7";
+    document.getElementById("Pages_MyGames").style.removeProperty("background-color");
+    document.getElementById("Pages_MyApps").style.removeProperty("background-color");
+    document.getElementById("Pages_AboutMe").style.removeProperty("background-color");
 }
