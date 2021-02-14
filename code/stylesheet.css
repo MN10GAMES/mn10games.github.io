@@ -165,3 +165,10 @@ body {
     line-height: 155%;
     color: #FFF5F0
 }
+
+#FKM_Profile {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    text-align: center;
+}
