@@ -13,14 +13,14 @@
         <a href="#my_games" class="Pages" id="Pages_MyGames" onclick="select_my_games()">MY GAMES</a>
         <img src="images/Logo.png" id="Logo">
         <a href="" class="Pages" id="Pages_MyApps" onclick="select_my_apps()">MY APPS</a>
-        <a href="" class="Pages" id="Pages_ContactMe" onclick="select_contact_me()">CONTACT ME</a>
+        <a href="#newsletter" class="Pages" id="Pages_ContactMe" onclick="select_contact_me()">FOLLOW ME</a>
     </header>
-    <div id="score">SCORE : 1000 / 2000</div>
+    <div id="score">SCORE : 1000 / 3500</div>
     <div id="intro" class="overlay">
         <span class="emphasis">Hi I'm MN10, welcome to my website !</span><br />
         <span>On it you may learn about all things MN10GAMES</span><br />
         <span>You may also score points by reading or interacting with the various links and forms</span><br />
-        <span class="emphasis">A present awaits he who collects 2000 points</span><br />
+        <span class="emphasis">A present awaits he who collects 3500 points</span><br />
         <span>What are you waiting for ? Have fun !</span><br />
         <button onclick="close_overlay()">START</button>
     </div>
@@ -36,7 +36,8 @@
                 Having played games my whole life, I always dreamed of one day making my own.<br />
                 With no intentions of letting go of this goal, I traveled to France after my high-school graduation
                 to take Software Engineering classes thus beginning my journey.<br /><br />
-                Now in my second year I have already released my first game and am working on the second one as you read this.<br /><br />
+                Now in my second year I have already released my first game
+                and am working on the second one as you read this.<br /><br />
                 What makes my games special you may ask? Well, It's simple I may answer ! <br />
                 They're made by a gamer first and foremost.<br />
                 This means no experience-deterring practices such as ads or microtransactions.<br />
@@ -48,39 +49,82 @@
         <div id="FKM_Profile">
             <img src="images/FKM_BG.png">
         </div>
-        <div class="Text">
+        <div class="Text" id="FKM_Text/Video">
             <p>
-                Hi, I'm Malick a 20 year old gamer from Senegal.<br /><br />
-                Having played games my whole life, I always dreamed of one day making my own.<br />
-                With no intentions of letting go of this goal, I traveled to France after my high-school graduation
-                to take Software Engineering classes thus beginning my journey.<br /><br />
-                Now in my second year I have already released my first game and am working on the second one as you read this.<br /><br />
-                What makes my games special you may ask? Well, It's simple I may answer ! <br />
-                They're made by a gamer first and foremost.<br />
-                This means no experience-deterring practices such as ads or microtransactions.<br />
-                Why? Because it's all supposed to be fun and games !
+                Free Kick Master is, as its name implies, a soccer Free Kick mini game for mobile phones.<br />
+                It features a cross-platform competitive leaderboard for an "arcade" experience.<br />
+                As of my mission statement, FKM doesn't feature any ads or in-app purchases.<br />
+                It was made in my first year of college using Unity, Blender, Gravit Designer,
+                Visual Studio and of course a lot of tutorials, trials, errors and dedication.
             </p>
+            <div id="FKM_Items">
+                <iframe id="FKM_Trailer" src="https://www.youtube.com/embed/GGKkaVWDey8" frameborder="0" allowfullscreen></iframe>
+                <div id="FKM_Links">
+                    <a href="https://apps.apple.com/us/app/freekick-master-master-cup/id1547075129" id="FKM_App_Store" target="_blank" rel="noreferrer" onclick="scoring()">
+                        <img src="images/App_Store_Badge.png" />
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.MN10GAMES.FreeKickMasterCup" id="FKM_Play_Store" target="_blank" rel="noreferrer" onclick="scoring()">
+                        <img src="images/Google_Play_Badge.png" />
+                    </a>
+                </div>
+
+            </div>
+
         </div>
     </div>
-    <div class="Full_Page" id="my_games">
-        <div id="Malick_Profile">
-            <img src="images/Malick.jpg">
-            <p id="Name">Malick NDIAYE</p><br />
-            <p id="Pseudo">"MN10GAMES"</p>
+    <div class="Full_Page">
+        <div id="FKM_Profile">
+            <img src="images/HSH_BG.png">
         </div>
-        <div class="Text">
+        <div class="Text" id="FKM_Text/Video">
             <p>
-                Hi, I'm Malick a 20 year old gamer from Senegal.<br /><br />
-                Having played games my whole life, I always dreamed of one day making my own.<br />
-                With no intentions of letting go of this goal, I traveled to France after my high-school graduation
-                to take Software Engineering classes thus beginning my journey.<br /><br />
-                Now in my second year I have already released my first game and am working on the second one as you read this.<br /><br />
-                What makes my games special you may ask? Well, It's simple I may answer ! <br />
-                They're made by a gamer first and foremost.<br />
-                This means no experience-deterring practices such as ads or microtransactions.<br />
-                Why? Because it's all supposed to be fun and games !
+                Home Sweet Home is an upcoming 2d platformer set in Africa.<br />
+                It's set for release in August 2021 on mobile phones.<br />
+                As of my mission statement, HSH won't feature any ads or in-app purchases.<br />
+                I'm currently making it in my second year of college using Unity, Sketchbook, Gravit Designer,
+                Visual Studio and again a lot of tutorials, trials, errors and dedication.
             </p>
+            <div id="FKM_Items">
+                <iframe id="FKM_Trailer" src="https://www.youtube.com/embed/IjdvDSFiaR4" frameborder="0" allowfullscreen></iframe>
+
+                <a href="#newsletter" id="Follow_HSH">
+                    Follow Home Sweet Home's progress
+                </a>
+
+            </div>
+
         </div>
     </div>
+    <div id="newsletter">
+        <a href="mailto:malick1ndiaye0@gmail.com?subject=Newsletter subscription&body=Hi malick, I'd like to receive your newsletter. Thanks !" id="newsletter_title" onclick="scoring()">Subscribe to my newsletter</a>
+    </div>
+    <div id="contacts">
+        <p>Or follow me on social media</p>
+        <div id="socials">
+            <a href="https://www.reddit.com/user/MN10GAMES" target="_blank" rel="noreferrer" onclick="scoring()"><img src="images/reddit.png" class="social_logos" /></a>
+            <a href="https://twitter.com/MN10GAMES" target="_blank" rel="noreferrer" onclick="scoring()"><img src="images/twitter.png" class="social_logos" /></a>
+            <a href="https://www.youtube.com/channel/UCf1g5Bqf7k2qSxrHsnIaEww" target="_blank" rel="noreferrer" onclick="scoring()"><img src="images/youtube.png" class="social_logos" /></a>
+        </div>
+    </div>
+    <div id="bonus">
+        <p class="outro">Thanks for visiting my website !</p><br />
+        <video autoplay muted src='http://tinyvid.tv/file/3d198wqepg78m.ogg' preload='metadata' controls='controls'></video><br />
+        <p class="outro">PS: Unmute it, I know it's a guilty pleasure ;)</p>
+    </div>
+    <footer id="footer">
+        <p class="Text">© Copyright 2021 MN10GAMES</p>
+        <p id="Privacy_Policy_Link" onclick="show_pp()">Privacy Policy</p>
+        <div id="privacy_policy" class="overlay">
+            <p>Your privacy is important to us. It is MN10GAMES' policy to respect your privacy regarding any information we may collect from you across our website, <a href="https://mn10games.github.io/">https://mn10games.github.io/</a>, and other sites we own and operate.</p>
+            <p>We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.</p>
+            <p>We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.</p>
+            <p>We don’t share any personally identifying information publicly or with third-parties, except when required to by law.</p>
+            <p>Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
+            <p>Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.</p>
+            <p>This policy is effective as of 14 February 2021.</p>
+            <p><a href="https://getterms.io" title="Generate a free privacy policy">Privacy Policy created with GetTerms.</a></p><br />
+            <button onclick="close_pp()" id="close_pp">CLOSE</button>
+        </div>
+    </footer>
 </body>
 </html>

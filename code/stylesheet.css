@@ -8,9 +8,9 @@
 
 button {
     margin: auto;
-    padding: 1%;
+    padding: .75%;
     font-family: Artifika_upload;
-    font-size: 2vw;
+    font-size: 1.75vw;
     color: #262524;
     background-color: #FFF5F0;
     animation: pulse 1s infinite;
@@ -87,7 +87,7 @@ header {
     color: #40FFEF;
     position: fixed;
     top: 11%;
-    right: 4.5%;
+    right: 2%;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -171,4 +171,130 @@ body {
     flex-direction: column;
     max-width: 25%;
     text-align: center;
+}
+
+#FKM_Items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5%;
+    height: 63.5%
+}
+
+#FKM_Trailer {
+    width: 50%
+}
+
+#FKM_App_Store {
+    margin-bottom: 4%
+}
+
+#FKM_Play_Store {
+    margin-top: 4%;
+}
+
+#FKM_Links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+    margin-top: 4.5%
+}
+
+#Follow_HSH {
+    color: #40FFEF;
+    margin-left: 5%;
+    margin-top: 15%;
+    font-family: Artifika_upload
+}
+
+#newsletter {
+    padding-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    display: flex;
+    scroll-snap-align: start;
+    flex-direction: column;
+    text-align: center;
+    opacity: .25
+}
+
+#newsletter_title {
+    font-family: Artifika_upload;
+    font-size: 2.75vw;
+    color: #40FFEF;
+    margin-bottom: 2%
+}
+
+#contacts {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    scroll-snap-align: start;
+    flex-direction: column;
+    text-align: center;
+    font-family: OpenSans_upload;
+    font-size: 2.75vw;
+    color: #FFF5F0;
+    opacity: .25
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.social_logos {
+    width: 50%;
+    margin: 15%
+}
+
+footer {
+    background-color: #595756;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    opacity: .25
+}
+
+#Privacy_Policy_Link {
+    font-family: Artifika_upload;
+    font-size: 1.5vw;
+    line-height: 155%;
+    color: #40FFEF;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 58%
+}
+
+#privacy_policy {
+    font-size: 1.25vw;
+    top: 3%;
+    display: none
+}
+
+#bonus {
+    z-index: 1;
+    position: fixed;
+    top: 20%;
+    left: 22.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    background-color: #30BFA7;
+    font-family: OpenSans_upload;
+    font-size: 2vw;
+    text-align: center;
+    opacity: 1;
+    color: #262524;
+    width: 50%;
+    height: 50%;
+    display: none;
+}
+
+.outro {
+    font-family: OpenSans_upload;
+    font-size: 2vw;
+    color: #FFF5F0
 }
