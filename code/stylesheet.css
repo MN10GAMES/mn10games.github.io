@@ -281,8 +281,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2%;
-    background-color: #30BFA7;
     font-family: OpenSans_upload;
     font-size: 2vw;
     text-align: center;
