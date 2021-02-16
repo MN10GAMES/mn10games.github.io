@@ -38,6 +38,8 @@ button {
     src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
 }
 
+
+
 header {
     background-color: #37DEC2;
     position: fixed;
@@ -96,7 +98,7 @@ header {
 .overlay {
     z-index: 1;
     position: fixed;
-    top: 10%;
+    top: 15%;
     left: 22.5%;
     width: 50%;
     display: flex;
@@ -184,8 +186,16 @@ body {
     width: 50%
 }
 
+#HSH_Trailer {
+    width: 50%
+}
+
 #FKM_App_Store {
     margin-bottom: 4%
+}
+
+.Store_Images {
+    width: 150%
 }
 
 #FKM_Play_Store {
@@ -235,7 +245,8 @@ body {
     font-family: OpenSans_upload;
     font-size: 2.75vw;
     color: #FFF5F0;
-    opacity: .25
+    opacity: .25;
+    align-items: center;
 }
 
 #socials {
@@ -276,7 +287,7 @@ footer {
 #bonus {
     z-index: 1;
     position: fixed;
-    top: 20%;
+    top: 27.5%;
     left: 22.5%;
     display: flex;
     flex-direction: column;
@@ -295,4 +306,167 @@ footer {
     font-family: OpenSans_upload;
     font-size: 2vw;
     color: #FFF5F0
+}
+
+@media only screen and (orientation: portrait) {
+
+    .overlay {
+        top: 20%;
+        left: 6.25%;
+        width: 80%;
+        font-size: 5vw;
+    }
+
+    button {
+        padding: 1%;
+        font-size: 5vw;
+    }
+
+    header {
+        display: none
+    }
+
+    #score {
+        font-size: 7.5vw;
+        top: 2.25%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Full_Page {
+        padding-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Text {
+        margin-left: 5%;
+        font-size: 3.5vw;
+    }
+
+    #Malick_Profile {
+        margin-left: 5%;
+        margin-bottom: 5%;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: right
+    }
+
+    #Malick_Pic {
+        width: 200%
+    }
+
+    #Nom_Malick {
+        text-align: center;
+        padding-top: 80%;
+        padding-left: 10%
+    }
+
+    #Name {
+        font-family: Artifika_upload;
+        font-size: 5vw;
+        color: #FFF5F0;
+        line-height: 150%;
+        margin-top: 4%;
+        margin-bottom: -4%;
+    }
+
+    #Pseudo {
+        font-family: Artifika_upload;
+        font-size: 5vw;
+        color: #39E6C9;
+    }
+
+    #my_games {
+        align-items: center;
+    }
+
+    #FKM_Profile {
+        max-width: 50%;
+        padding-bottom: 5%
+    }
+
+    #FKM_Items {
+        margin-top: 6%;
+    }
+
+    #FKM_Trailer {
+        width: 60%
+    }
+
+    #FKM_App_Store {
+        margin-bottom: 4%
+    }
+
+    .Store_Images {
+        width: 100%
+    }
+
+    #FKM_Links {
+        margin-left: 5%;
+        margin-top: 2.5%
+    }
+
+    #Follow_HSH {
+        display: none
+    }
+
+    #HSH_Trailer {
+        height: 250%;
+        width: 250%;
+    }
+
+    #HSH_Video {
+        margin-left: 2%
+    }
+
+    #newsletter {
+        padding-top: 25%;
+    }
+
+    #newsletter_title {
+        font-size: 3vw;
+    }
+
+    #Privacy_Policy_Link {
+        font-family: Artifika_upload;
+        font-size: 3vw;
+        line-height: 155%;
+        color: #40FFEF;
+        text-decoration: underline;
+        cursor: pointer;
+        margin-left: 15%
+    }
+
+    #privacy_policy {
+        font-size: 3.75vw;
+        top: 3%;
+        display: none
+    }
+
+    #bonus {
+        z-index: 1;
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-family: OpenSans_upload;
+        font-size: 2vw;
+        text-align: center;
+        opacity: 1;
+        color: #262524;
+        width: 90%;
+        height: 90%;
+        display: none;
+    }
+
+    .outro {
+        font-size: 6.5vw;
+    }
 }

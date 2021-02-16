@@ -26,6 +26,7 @@ function scrollFinished() {
 
     if (score >= goal) {
         document.getElementById("bonus").style.display = "flex";
+        document.body.classList.add('Sparkles')
         document.getElementById("header").style.opacity = ".25";
         document.getElementById("newsletter").style.opacity = ".25";
         document.getElementById("contacts").style.opacity = ".25";

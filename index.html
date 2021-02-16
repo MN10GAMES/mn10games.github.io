@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="code/stylesheet.css">
     <script src="code/script.js"></script>
     <title>Hi, I'm MN10 !</title>
+    <link rel="icon" href="images/Favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/Favicon.png" type="image/x-icon" />
 </head>
 <body>
     <header id="header">
@@ -26,9 +28,11 @@
     </div>
     <div class="Full_Page" id="about_me">
         <div id="Malick_Profile">
-            <img src="images/Malick.jpg">
-            <p id="Name">Malick NDIAYE</p><br />
-            <p id="Pseudo">"MN10GAMES"</p>
+            <img src="images/Malick.jpg" id="Malick_Pic">
+            <div id="Nom_Malick">
+                <p id="Name">Malick NDIAYE</p><br />
+                <p id="Pseudo">"MN10GAMES"</p>
+            </div>
         </div>
         <div class="Text">
             <p>
@@ -61,10 +65,10 @@
                 <iframe id="FKM_Trailer" src="https://www.youtube.com/embed/GGKkaVWDey8" frameborder="0" allowfullscreen></iframe>
                 <div id="FKM_Links">
                     <a href="https://apps.apple.com/us/app/freekick-master-master-cup/id1547075129" id="FKM_App_Store" target="_blank" rel="noreferrer" onclick="scoring()">
-                        <img src="images/App_Store_Badge.png" />
+                        <img src="images/App_Store_Badge.png" class="Store_Images" />
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.MN10GAMES.FreeKickMasterCup" id="FKM_Play_Store" target="_blank" rel="noreferrer" onclick="scoring()">
-                        <img src="images/Google_Play_Badge.png" />
+                        <img src="images/Google_Play_Badge.png" class="Store_Images" />
                     </a>
                 </div>
 
@@ -72,7 +76,7 @@
 
         </div>
     </div>
-    <div class="Full_Page">
+    <div class="Full_Page" id="my_games">
         <div id="FKM_Profile">
             <img src="images/HSH_BG.png">
         </div>
@@ -85,7 +89,9 @@
                 Visual Studio and again a lot of tutorials, trials, errors and dedication.
             </p>
             <div id="FKM_Items">
-                <iframe id="FKM_Trailer" src="https://www.youtube.com/embed/IjdvDSFiaR4" frameborder="0" allowfullscreen></iframe>
+                <div id="HSH_Video">
+                    <iframe id="HSH_Trailer" src="https://www.youtube.com/embed/IjdvDSFiaR4" frameborder="0" allowfullscreen></iframe>
+                </div>
 
                 <a href="#newsletter" id="Follow_HSH">
                     Follow Home Sweet Home's progress
