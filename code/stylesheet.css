@@ -186,8 +186,10 @@ body {
     width: 50%
 }
 
+
 #HSH_Trailer {
-    width: 50%
+    height: 100%;
+    width: 300%;
 }
 
 #FKM_App_Store {
@@ -211,7 +213,7 @@ body {
 
 #Follow_HSH {
     color: #40FFEF;
-    margin-left: 5%;
+    margin-left: 45%;
     margin-top: 15%;
     font-family: Artifika_upload
 }
