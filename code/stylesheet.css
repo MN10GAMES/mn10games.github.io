@@ -18,6 +18,10 @@ button {
     cursor: pointer;
 }
 
+a {
+    text-decoration: none;
+}
+
 @keyframes pulse {
     from {
         color: #FFF5F0
@@ -76,11 +80,20 @@ header {
 
 #Pages_ContactMe {
     margin-left: 10%;
-    margin-right: 10%
 }
 
 #Logo {
     width: 4%;
+}
+
+.Flags {
+    padding-top: 1.3%;
+    padding-left: 1%
+}
+
+#Flag_en {
+    padding-top: 1.3%;
+    padding-left: 1%
 }
 
 #score {
