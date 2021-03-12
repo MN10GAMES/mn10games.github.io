@@ -183,7 +183,7 @@ body {
 }
 
 #FKM_Trailer {
-    width: 50%
+    width: 40%
 }
 
 
@@ -204,7 +204,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 13%;
-    margin-top: 9%
+    margin-top: 9%;
 }
 
 #Follow_HSH {
