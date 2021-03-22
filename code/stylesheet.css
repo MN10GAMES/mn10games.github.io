@@ -396,6 +396,12 @@ footer {
         align-items: center;
     }
 
+    #my_apps {
+        margin-top: 20%;
+        margin-bottom: 0%;
+        align-items: center;
+    }
+
     #FKM_Profile {
         max-width: 50%;
         padding-bottom: 5%
@@ -436,7 +442,7 @@ footer {
     }
 
     #newsletter {
-        padding-top: 25%;
+        padding-top: 5%;
     }
 
     #newsletter_title {
