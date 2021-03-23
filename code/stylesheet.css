@@ -227,6 +227,12 @@ body {
     font-family: Artifika_upload
 }
 
+#cappsuleLink {
+    display: flex;
+    flex-direction: column;
+    text-align: center
+}
+
 #newsletter {
     padding-top: 2%;
     margin-left: 4%;
@@ -439,6 +445,12 @@ footer {
 
     #HSH_Video {
         margin-left: 2%
+    }
+
+    #cappsuleLink {
+        margin-top: 5%;
+        margin-left: 22.5%;
+        width: 50%
     }
 
     #newsletter {
