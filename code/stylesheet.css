@@ -18,10 +18,6 @@ button {
     cursor: pointer;
 }
 
-a {
-    text-decoration: none;
-}
-
 @keyframes pulse {
     from {
         color: #FFF5F0
