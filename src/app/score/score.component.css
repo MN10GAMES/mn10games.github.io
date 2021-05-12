@@ -1,0 +1,43 @@
+div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p{
+    font-family: Magnolia Script;
+    font-size: xx-large;
+    margin: 0;
+    position:fixed;
+    right: 5vw;
+    margin-top: -3vh;
+    color: #FFEBFD;
+}
+
+@media screen and (max-width: 1920px) {
+    p{
+        right: 1vw;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    div{
+        justify-content: center;
+    }
+
+    p{
+        right: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: max-content;
+        background-color: #9F008F;
+        padding-left: 40vw;
+        padding-right: 40vw;
+        margin-top: -5vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    p{
+        font-size: x-large;
+    }
+}

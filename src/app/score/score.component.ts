@@ -3,23 +3,23 @@ import { Subscription } from 'rxjs';
 import { ScorerService } from '../scorer.service';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css']
+  selector: 'app-score',
+  templateUrl: './score.component.html',
+  styleUrls: ['./score.component.css']
 })
-export class FooterComponent implements OnInit {
+export class ScoreComponent implements OnInit {
 
   score!: number;
   subscription!: Subscription;
 
-  constructor(private scorer: ScorerService) { }
+  constructor(private scorer: ScorerService) { 
+  }
+
+  max_score!: number;
 
   ngOnInit(): void {
     this.subscription = this.scorer.current_score.subscribe(score => this.score = score)
-  }
-
-  Scoring(){
-    this.scorer.changeScore();
+    this.max_score = 3500;
   }
 
 }

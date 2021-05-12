@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { MidgroundComponent } from './midground/midground.component';
 import { FooterComponent } from './footer/footer.component';
 import { MalickComponent } from './malick/malick.component';
+import { ScoreComponent } from './score/score.component';
+import { ScorerService } from './scorer.service';
 
 @NgModule({
   declarations: [
@@ -13,12 +15,13 @@ import { MalickComponent } from './malick/malick.component';
     MidgroundComponent,
     FooterComponent,
     MalickComponent,
+    ScoreComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ScorerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
