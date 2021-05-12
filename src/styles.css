@@ -13,10 +13,10 @@ html, body
 
 @font-face {
     font-family: "OpenSans";
-    src: local("OpenSans"), url(/assets/fonts/Open\ Sans/OpenSans-Regular.ttf) format('truetype');
+    src: local("OpenSans"), url(/src/assets/fonts/Open\ Sans/OpenSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Magnolia Script";
-    src: local("OpenSans"), url(/assets/fonts/Magnolia\ Script.otf) format('opentype');
+    src: local("OpenSans"), url(/src/assets/fonts/Magnolia\ Script.otf) format('opentype');
 }
