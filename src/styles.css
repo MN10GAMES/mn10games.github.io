@@ -1,4 +1,4 @@
-body
+html, body
 {
     background-image: url('/assets/images/background.png');
     background-repeat: no-repeat; 
@@ -8,6 +8,7 @@ body
     flex-direction: row;
     justify-content: center;
     margin: 0%;
+    height: 100%
 }
 
 @font-face {

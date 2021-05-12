@@ -11,7 +11,7 @@ footer{
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 2.5vh;
-    margin-bottom: 1vh;
+    margin-bottom: 2.5vh;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
 }
@@ -40,13 +40,23 @@ a:hover{
 }
 
 p{
-    margin: 2vh;
+    margin: 1vh;
     font-size:87.5%;
 }
 
 @media screen and (max-width: 1025px){
     .Icon{
         padding: 2vw;
+        width: 7.5vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Icon{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 2.5vh;
+        padding-right: 2.5vh;
         width: 7.5vw;
     }
 }
