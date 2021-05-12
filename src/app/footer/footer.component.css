@@ -1,0 +1,52 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans;
+    color: #FF99F5;
+    text-align: center;
+}
+
+#Icon_Container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2.5vh;
+    margin-bottom: 1vh;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+
+.Icon{
+    width: 3vw;
+    border-bottom: 0.5vh solid transparent;
+}
+
+.Icon:hover{
+    border-bottom: 0.5vh solid #FFEBFD;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    color: #FF99F5;
+    align-self: center;
+    font-size:87.5%;
+}
+
+a:hover{
+    color: #FFEBFD;
+}
+
+p{
+    margin: 2vh;
+    font-size:87.5%;
+}
+
+@media screen and (max-width: 1025px){
+    .Icon{
+        padding: 2vw;
+        width: 7.5vw;
+    }
+}
