@@ -33,6 +33,7 @@ a{
     color: #FF99F5;
     align-self: center;
     font-size:87.5%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a:hover{
@@ -42,6 +43,7 @@ a:hover{
 p{
     margin: 1vh;
     font-size:87.5%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 1025px){
