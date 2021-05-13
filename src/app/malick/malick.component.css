@@ -14,9 +14,9 @@ img{
 }
 
 #Title{
-    font-family: Magnolia Script;
+    font-family: 'Merienda', cursive;
     color: #FFEBFD;
-    font-size: xx-large;
+    font-size: 3.5em;
     margin: 0;
     margin-bottom: 2vh;
 }
@@ -29,6 +29,7 @@ img{
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
     margin-bottom: 2.5vh;
+    font-size: x-large;
 }
 
 a{
@@ -37,6 +38,16 @@ a{
 
 a:hover{
     color: #9F008F;
+}
+
+@media screen and (max-width: 2549px){
+    #Title{
+        font-size: xx-large;
+    }
+
+    #Description{
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 1025px){

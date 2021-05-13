@@ -32,7 +32,7 @@ img{
 a{
     color: #FF99F5;
     align-self: center;
-    font-size:87.5%;
+    font-size:medium;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -42,8 +42,18 @@ a:hover{
 
 p{
     margin: 1vh;
-    font-size:87.5%;
+    font-size:medium;
     font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 1921px){
+    a{
+        font-size: small;
+    }
+
+    p{
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 1025px){

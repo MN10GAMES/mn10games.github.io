@@ -4,18 +4,19 @@ div{
 }
 
 p{
-    font-family: Magnolia Script;
-    font-size: xx-large;
+    font-family: 'Merienda', cursive;
+    font-size: 3.5em;
     margin: 0;
     position:fixed;
-    right: 5vw;
+    right: 0vw;
     margin-top: -3vh;
     color: #FFEBFD;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1921px) {
     p{
-        right: 1vw;
+        right: 0.6vw;
+        font-size: xx-large;
     }
 }
 
