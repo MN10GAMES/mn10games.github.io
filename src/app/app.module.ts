@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MalickComponent } from './malick/malick.component';
 import { ScoreComponent } from './score/score.component';
 import { ScorerService } from './scorer.service';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ScorerService } from './scorer.service';
     FooterComponent,
     MalickComponent,
     ScoreComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,

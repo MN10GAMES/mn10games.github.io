@@ -19,6 +19,10 @@ body
     z-index: -1;
 }
 
+a{
+    text-decoration: none;
+}
+
 @font-face {
     font-family: "Magnolia Script";
     src: local("Magnolia Script"), url(/src/assets/fonts/Magnolia\ Script.otf) format('opentype');

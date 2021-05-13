@@ -34,6 +34,7 @@ img{
 
 a{
     color: #FFEBFD;
+    font-family: 'Itim', cursive;
 }
 
 a:hover{
@@ -47,6 +48,10 @@ a:hover{
 
     #Description{
         font-size: 1em;
+    }
+
+    a{
+        font-size: 1.1em
     }
 }
 
@@ -63,6 +68,10 @@ a:hover{
 
     #Description{
         font-size: medium;
+    }
+
+    a{
+        font-size: large
     }
 }
 
