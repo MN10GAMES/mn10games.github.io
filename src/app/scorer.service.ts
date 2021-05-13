@@ -10,8 +10,8 @@ export class ScorerService {
 
   constructor() { }
 
-  changeScore(){
-    var newscore = this.actualscore + 250;
+  changeScore(amount:number){
+    var newscore = this.actualscore + amount;
     this.score.next(newscore);
     this.actualscore = newscore;
   }

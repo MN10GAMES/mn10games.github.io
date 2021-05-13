@@ -55,10 +55,10 @@ p{
 
 @media screen and (max-width: 768px){
     .Icon{
-        padding-top: 2vw;
-        padding-bottom: 2vw;
-        padding-left: 2.5vh;
-        padding-right: 2.5vh;
-        width: 7.5vw;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        width: 10vw;
     }
 }

@@ -19,7 +19,7 @@ export class FooterComponent implements OnInit {
   }
 
   Scoring(){
-    this.scorer.changeScore();
+    this.scorer.changeScore(250);
   }
 
 }

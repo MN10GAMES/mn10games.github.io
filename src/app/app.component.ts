@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Subscription } from 'rxjs';
+import { ScorerService } from './scorer.service';
 
 @Component({
   selector: 'app-root',
