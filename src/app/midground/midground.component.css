@@ -2,12 +2,19 @@ div{
     background: linear-gradient(180deg, rgb(102, 0, 92, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
     width: 57.5vw;
     height: 100%;
-    padding-top: 10vh;
+    padding-top: 7.5vh;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1921px){
+    div{
+        padding-top: 10vh;
+    }
 }
 
 @media screen and (max-width: 768px){
     div{
         background: linear-gradient(180deg, rgb(102, 0, 92, 0.75) 0%, rgba(0, 0, 0, 0.75) 100%);
         width: 100vw;
+        padding-top: 5vh;
     }
 }

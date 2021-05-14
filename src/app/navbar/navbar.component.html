@@ -1,5 +1,16 @@
 <nav>
-    <a href="" (click)="Scoring()">ABOUT ME</a>
-    <a>MY GAMES</a>
-    <a>MY APPS</a>
+    <div class="dropdown">
+        <p>MY GAMES</p>
+        <div class="dropdown_content">
+            <a (click)="Scoring()">Free Kick Master</a>
+            <a (click)="Scoring()">Savanhike</a>
+        </div>
+    </div>
+    <a (click)="Scoring()">ABOUT ME</a>
+    <div class="dropdown">
+        <p>MY APPS</p>
+        <div class="dropdown_content">
+            <a (click)="Scoring()">Cappsule</a>
+        </div>
+    </div>
 </nav>

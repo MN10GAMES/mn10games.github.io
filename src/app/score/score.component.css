@@ -1,39 +1,36 @@
 div{
     display: flex;
-    justify-content: flex-end;
+    text-align: center;
 }
 
 p{
     font-family: 'Merienda', cursive;
-    font-size: 3.5em;
+    font-size: xx-large;
     margin: 0;
     position:fixed;
-    right: 0vw;
-    margin-top: -3vh;
-    color: #FFEBFD;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    background-color: #FFEBFD;
+    padding-left: 40vw;
+    padding-right: 40vw;
+    width: 100%;
+    color: #9F008F;
+    top: 4vh;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.089);
 }
 
 @media screen and (max-width: 1921px) {
     p{
-        right: 0.6vw;
-        font-size: xx-large;
+        font-size: x-large;
+        top: 5vh;
     }
 }
 
 @media screen and (max-width: 1500px) {
-    div{
-        justify-content: center;
-    }
-
     p{
-        right: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: max-content;
-        background-color: #9F008F;
-        padding-left: 40vw;
-        padding-right: 40vw;
-        margin-top: -10vh;
+        top:0;
     }
 }
 

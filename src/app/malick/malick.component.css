@@ -11,14 +11,16 @@
 
 img{
     width: 100%;
+    border: 0.25vw solid #FFEBFD;
+    border-radius: 10%;
+    background-color: #FFEBFD;
 }
 
 #Title{
     font-family: 'Merienda', cursive;
     color: #FFEBFD;
     font-size: 3.5em;
-    margin: 0;
-    margin-bottom: 2vh;
+    margin: 2vh;
 }
 
 #Description{

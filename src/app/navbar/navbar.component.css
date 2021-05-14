@@ -9,16 +9,63 @@ nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    z-index: 2;
 }
 
 a{
     font-family: 'Itim', cursive;
-    color: #FFEBFD;
-    font-size:large;
+    color: #FF99F5;
+    font-size:x-large;
+    border-bottom: 0.25vh solid #ff99f500;
 }
 
 a:hover{
-    color: #FF99F5;
+    color: #3D0037;
+}
+
+p{
+    font-family: 'Itim', cursive;
+    color: #FFEBFD;
+    font-size:x-large;
+    margin: 0%;
+    padding-left: 1vw;
+}
+
+p:hover{
+    cursor: default;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #9F008F;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.089);
+    border-radius: 10%;
+}
+
+.dropdown_content a{
+    display: flex;
+    text-align: left;
+    margin-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border-bottom-right-radius: 15%;
+}
+
+.dropdown:hover .dropdown_content{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1921px) {
+    a{
+        font-size:large;
+    }
+
+    p{
+        font-size:large;
+    }
 }
 
 @media screen and (max-width: 1500px) {
@@ -30,10 +77,23 @@ a:hover{
     a{
         font-size:x-large;
     }
+
+    p{
+        font-size:x-large;
+    }
+
+    .dropdown_content{
+        bottom: 90%;
+        box-shadow: none;
+    }
 }
 
 @media screen and (max-width: 450px) {
     a{
+        font-size:large;
+    }
+
+    p{
         font-size:large;
     }
 }

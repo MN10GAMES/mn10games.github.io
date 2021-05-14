@@ -23,7 +23,67 @@ a{
     text-decoration: none;
 }
 
+p::selection {
+    background-color: #9F008F;
+    color: #FFEBFD;
+}
+
+a::selection{
+    background-color: #FFEBFD;
+    color: #66005C;
+}
+
 @font-face {
     font-family: "Magnolia Script";
     src: local("Magnolia Script"), url(/src/assets/fonts/Magnolia\ Script.otf) format('opentype');
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  
+  /* Tooltip box */
+  .tooltip:before {
+    content: attr(data-tooltip); 
+    position: absolute;
+    width: 100px;
+    background-color: #FFEBFD;
+    color: #9F008F;
+    text-align: center;
+    padding: 10px;
+    line-height: 1.2;
+    border-radius: 6px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .6s;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    font-size: 0.875em;
+    visibility: hidden;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip:after {
+    content: "";
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    opacity: 0;
+    transition: opacity .6s;
+    border-color: #FFEBFD transparent transparent transparent;
+    visibility: hidden;
+  }
+  
+  .tooltip:hover:before, .tooltip:hover:after {
+    opacity: 1;
+    visibility: visible;
+  }

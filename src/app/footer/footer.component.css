@@ -10,8 +10,8 @@ footer{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
 }
@@ -46,6 +46,13 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
+#cta{
+    font-family: 'Merienda', cursive;
+    font-size: xx-large;
+    color: #FFEBFD;
+    margin-top: 5vh;
+}
+
 @media screen and (max-width: 1921px){
     a{
         font-size: medium;
@@ -53,6 +60,10 @@ p{
 
     p{
         font-size: small;
+    }
+
+    #cta{
+        font-size: large;
     }
 }
 
