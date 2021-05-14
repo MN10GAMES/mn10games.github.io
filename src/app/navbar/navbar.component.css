@@ -86,6 +86,10 @@ p:hover{
     .dropdown_content{
         bottom: 90%;
         box-shadow: none;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 0%;
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
     }
 }
 
