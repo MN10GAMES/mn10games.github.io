@@ -44,7 +44,6 @@ a::selection{
 
 .tooltip {
     position: relative;
-    border-bottom: 1px dotted black;
   }
   
   /* Tooltip box */

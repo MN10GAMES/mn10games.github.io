@@ -40,7 +40,8 @@ p:hover{
     position: absolute;
     background-color: #9F008F;
     box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.089);
-    border-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
 }
 
 .dropdown_content a{
