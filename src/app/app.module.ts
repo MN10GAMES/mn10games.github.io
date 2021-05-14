@@ -9,6 +9,9 @@ import { MalickComponent } from './malick/malick.component';
 import { ScoreComponent } from './score/score.component';
 import { ScorerService } from './scorer.service';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CappsuleComponent } from './cappsule/cappsule.component';
+import { FkmComponent } from './fkm/fkm.component';
+import { SavanhikeComponent } from './savanhike/savanhike.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +21,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     MalickComponent,
     ScoreComponent,
     NavbarComponent,
+    CappsuleComponent,
+    FkmComponent,
+    SavanhikeComponent,
   ],
   imports: [
     BrowserModule,
