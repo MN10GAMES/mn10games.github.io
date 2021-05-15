@@ -20,6 +20,15 @@
 
     </div>
     <a (click)="ScoringShowing()" >Privacy policy</a>
+    <div *ngIf="firstentry == true" class="modal" id="entry-modal">
+        <p id="entry-text">
+            Hi I'm Malick, welcome to my website<br><br>
+            On it you may learn about all of my creations<br><br>
+            You may also score points by interacting with the various links<br><br>
+            A surprise awaits those who will collect 3500 points<br><br>
+            Have fun !</p>
+        <a (click)="Hide3()"><button id="start">START</button></a>
+    </div>
     <div *ngIf="show == true" class="modal" id="pp-modal">
         <p id="pp-title">PRIVACY POLICY</p>
         <p>Your privacy is important to us. It is MN10GAMES' policy to   respect your privacy regarding any information we may collect from you across our website, https://mn10games.github.io/, and other sites we own and operate.

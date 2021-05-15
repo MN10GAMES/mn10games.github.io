@@ -35,7 +35,14 @@ a{
     border-bottom: 0.5vh solid #ffebfd00;
 }
 
+@keyframes iconhoveranim{
+    from {border-bottom: 0.5vh solid transparent;}
+    to {border-bottom: 0.5vh solid #FFEBFD;}
+}
+
 a:hover{
+    animation-name: iconhoveranim;
+    animation-duration: .5s;
     border-bottom: 0.5vh solid #FFEBFD;
 }
 

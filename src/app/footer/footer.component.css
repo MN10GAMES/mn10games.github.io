@@ -21,7 +21,14 @@ footer{
     border-bottom: 0.5vh solid transparent;
 }
 
+@keyframes iconhoveranim{
+    from {border-bottom: 0.5vh solid transparent;}
+    to {border-bottom: 0.5vh solid #FFEBFD;}
+}
+
 .Icon:hover{
+    animation-name: iconhoveranim;
+    animation-duration: .5s;
     border-bottom: 0.5vh solid #FFEBFD;
 }
 
@@ -81,6 +88,27 @@ button{
  button:hover{
     background: #FF99F5;
  } 
+
+ #entry-modal{
+     text-align: center;
+ }
+
+ #entry-text{
+     font-size: x-large;
+ }
+
+ @keyframes startanim{
+     from {color: #FF99F5;}
+     to {color: #9F008F;}
+ }
+
+ #start{
+    color: #FF99F5;
+    animation-name: startanim;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
 
 @media screen and (max-width: 1921px){
     a{

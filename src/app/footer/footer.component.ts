@@ -14,6 +14,7 @@ export class FooterComponent implements OnInit {
   show: boolean = false;
   subscription2!: Subscription;
   ready!: boolean;
+  firstentry: boolean = true;
 
   constructor(private scorer: ScorerService) { }
 
@@ -37,6 +38,10 @@ export class FooterComponent implements OnInit {
 
   Hide2(){
     this.ready = false;
+  }
+
+  Hide3(){
+    this.firstentry = false;
   }
 
 }
