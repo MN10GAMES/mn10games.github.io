@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: '', component: MalickComponent},
   { path: 'Cappsule', component: CappsuleComponent},
   { path: 'Free_Kick_Master', component: FkmComponent},
-  { path: 'Savanhike', component: SavanhikeComponent}
+  { path: 'Savanhike', component: SavanhikeComponent},
+  { path: '**',   redirectTo: '', pathMatch: 'full' }
 ];
 
 @NgModule({
