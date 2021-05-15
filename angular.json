@@ -28,7 +28,8 @@
             "aot": true,
             "assets": [
               "src/assets",
-              "src/assets/favicon.png"
+              "src/assets/favicon.png",
+              "src/404.html"
             ],
             "styles": [
               "src/styles.css"
