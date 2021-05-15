@@ -17,8 +17,33 @@
         <a href="https://twitter.com/MN10GAMES" class="Icon" (click)="Scoring()" target="_blank"><img src="/assets/images/icons/twitter.png"></a>
 
         <a href="" class="Icon" (click)="Scoring()" target="_blank"><img src="/assets/images/icons/tiktok.png"></a>
-        
+
     </div>
-    <a (click)="Scoring()">Privacy policy</a>
+    <a (click)="Scoring()" >Privacy policy</a>
+    <div *ngIf="show == true" class="modal" id="pp-modal">
+        <p id="pp-title">PRIVACY POLICY</p>
+        <p>Your privacy is important to us. It is MN10GAMES' policy to   respect your privacy regarding any information we may collect from you across our website, https://mn10games.github.io/, and other sites we own and operate.
+
+            We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we’re collecting it and how it will be used.
+            
+            We only retain collected information for as long as necessary to provide you with your requested service. What data we store, we’ll protect within commercially acceptable means to prevent loss and theft, as well as unauthorized access, disclosure, copying, use or modification.
+            
+            We don’t share any personally identifying information publicly or with third-parties, except when required to by law.
+            
+            Our website may link to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.
+            
+            Your continued use of our website will be regarded as acceptance of our practices around privacy and personal information. If you have any questions about how we handle user data and personal information, feel free to contact us.
+            
+            This policy is effective as of 14 February 2021.
+            
+            Privacy Policy created with GetTerms.</p>
+        <a (click)="Hide1()"><button>CLOSE</button></a>
+    </div>
+    <div *ngIf="ready == true" class="modal">
+        <p id="bamboozle-title">Thank you for visiting my website !</p>
+        <video autoplay="" muted="" loop="" src="/assets/Bonus.mp4" preload="metadata" controls="controls"></video>
+        <p id="bamboozle-title">PS: Unmute it, I know it's a guilty pleasure ;)</p>
+        <a (click)="Hide2()"><button>GIVE UP</button></a>
+    </div>
     <p>© Copyright 2021 Malick Ndiaye</p>
 </footer>

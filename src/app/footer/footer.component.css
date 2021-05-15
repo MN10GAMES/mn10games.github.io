@@ -53,6 +53,35 @@ p{
     margin-top: 5vh;
 }
 
+#pp-title{
+    font-size: medium;
+}
+
+#bamboozle-title{
+    font-size: x-large;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+button{
+    color: #9F008F;
+    background: none;
+    border-radius: 10%;
+    border: 3px solid ;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 2.5vh;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Merienda', cursive;
+  }
+
+ button:hover{
+    background: #FF99F5;
+ } 
+
 @media screen and (max-width: 1921px){
     a{
         font-size: medium;
