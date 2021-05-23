@@ -4,7 +4,7 @@ div{
 }
 
 p{
-    font-family: 'Merienda', cursive;
+    font-family: 'Itim', cursive;
     font-size: xx-large;
     margin: 0;
     position:fixed;
@@ -22,7 +22,7 @@ p{
 
 @media screen and (max-width: 1921px) {
     p{
-        font-size: x-large;
+        font-size: xx-large;
         top: 5vh;
     }
 }

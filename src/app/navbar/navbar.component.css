@@ -14,13 +14,13 @@ nav{
 
 a{
     font-family: 'Itim', cursive;
-    color: #FF99F5;
+    color: #FFEBFD;
     font-size:x-large;
     border-bottom: 0.25vh solid #ff99f500;
 }
 
 a:hover{
-    color: #3D0037;
+    color: #FF99F5;
 }
 
 p{

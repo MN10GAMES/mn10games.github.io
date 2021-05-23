@@ -26,7 +26,7 @@ img{
 }
 
 #Title{
-    font-family: 'Merienda', cursive;
+    font-family: 'Itim', cursive;
     color: #FFEBFD;
     font-size: 3.5em;
     margin: 2vh;
@@ -36,7 +36,7 @@ img{
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: justify;
-    color: #FF99F5;
+    color: #FFEBFD;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
     margin-bottom: 2.5vh;
@@ -49,20 +49,13 @@ a{
 
 @keyframes iconhoveranim{
     from {border-bottom: 0.5vh solid transparent;}
-    to {border-bottom: 0.5vh solid #FFEBFD;}
+    to {border-bottom: 0.5vh solid #FF99F5;}
 }
 
 a:hover{
     animation-name: iconhoveranim;
     animation-duration: .5s;
-    border-bottom: 0.5vh solid #FFEBFD;
-}
-
-mark{
-    color: #FFEBFD;
-    font-family: 'Itim', cursive;
-    background: none;
-    font-size: x-large;
+    border-bottom: 0.5vh solid #FF99F5;
 }
 
 #Badges{
@@ -77,10 +70,6 @@ mark{
 
     #Description{
         font-size: 1em;
-    }
-
-    mark{
-        font-size: 1.1em
     }
 }
 
@@ -108,10 +97,6 @@ mark{
 
     #Description{
         font-size: medium;
-    }
-
-    mark{
-        font-size: large
     }
 }
 

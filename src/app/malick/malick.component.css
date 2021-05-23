@@ -17,7 +17,7 @@ img{
 }
 
 #Title{
-    font-family: 'Merienda', cursive;
+    font-family: 'Itim', cursive;
     color: #FFEBFD;
     font-size: 3.5em;
     margin: 2vh;
@@ -27,7 +27,7 @@ img{
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: justify;
-    color: #FF99F5;
+    color: #FFEBFD;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
     margin-bottom: 2.5vh;
@@ -40,7 +40,7 @@ a{
 }
 
 a:hover{
-    color: #9F008F;
+    color: #FF99F5;
 }
 
 @media screen and (max-width: 2549px){
