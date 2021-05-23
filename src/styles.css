@@ -29,13 +29,8 @@ p::selection {
 }
 
 a::selection{
-    background-color: #FFEBFD;
-    color: #66005C;
-}
-
-mark::selection{
-    background-color: #FFEBFD;
-    color: #66005C;
+    background-color: #9F008F;
+    color: #FFEBFD;
 }
 
 .tooltip {
