@@ -12,9 +12,9 @@
 
 iframe{
     width: 25vw;
-    border: 0.25vw solid #FFEBFD;
+    border: 0.25vw solid white;
     border-radius: 2.5%;
-    background-color: #FFEBFD;
+    background-color: white;
 }
 
 .Picture{
@@ -27,7 +27,7 @@ img{
 
 #Title{
     font-family: 'Itim', cursive;
-    color: #FFEBFD;
+    color: white;
     font-size: 3.5em;
     margin: 2vh;
 }
@@ -36,7 +36,7 @@ img{
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: justify;
-    color: #FFEBFD;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
     margin-bottom: 2.5vh;
@@ -44,7 +44,7 @@ img{
 }
 
 a{
-    border-bottom: 0.5vh solid #ffebfd00;
+    border-bottom: 0.5vh solid rgba(255, 255, 255, 0);
 }
 
 @keyframes iconhoveranim{

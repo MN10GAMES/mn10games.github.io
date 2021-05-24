@@ -25,12 +25,12 @@ a{
 
 p::selection {
     background-color: #9F008F;
-    color: #FFEBFD;
+    color: white;
 }
 
 a::selection{
     background-color: #9F008F;
-    color: #FFEBFD;
+    color: white;
 }
 
 .tooltip {
@@ -42,7 +42,7 @@ a::selection{
     content: attr(data-tooltip); 
     position: absolute;
     width: 100px;
-    background-color: #FFEBFD;
+    background-color: white;
     color: #3D0037;
     text-align: center;
     padding: 10px;
@@ -69,7 +69,7 @@ a::selection{
     border-style: solid;
     opacity: 0;
     transition: opacity .6s;
-    border-color: #FFEBFD transparent transparent transparent;
+    border-color: white transparent transparent transparent;
     visibility: hidden;
   }
   
@@ -100,7 +100,7 @@ a::selection{
 
 video{
     width: 30vw;
-    border: 0.25vw solid #FFEBFD;
+    border: 0.25vw solid white;
     border-radius: 2.5%;
     margin: 2vh;
 }

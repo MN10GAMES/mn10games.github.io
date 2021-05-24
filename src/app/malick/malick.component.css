@@ -11,14 +11,14 @@
 
 img{
     width: 100%;
-    border: 0.25vw solid #FFEBFD;
+    border: 0.25vw solid white;
     border-radius: 10%;
-    background-color: #FFEBFD;
+    background-color: white;
 }
 
 #Title{
     font-family: 'Itim', cursive;
-    color: #FFEBFD;
+    color: white;
     font-size: 3.5em;
     margin: 2vh;
 }
@@ -27,7 +27,7 @@ img{
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: justify;
-    color: #FFEBFD;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0;
     margin-bottom: 2.5vh;
@@ -35,7 +35,7 @@ img{
 }
 
 a{
-    color: #FFEBFD;
+    color: white;
     font-family: 'Itim', cursive;
 }
 

@@ -2,7 +2,7 @@ footer{
     display: flex;
     flex-direction: column;
     font-family: OpenSans;
-    color: #FFEBFD;
+    color: white;
     text-align: center;
 }
 
@@ -18,7 +18,7 @@ footer{
 
 .Icon{
     width: 3vw;
-    border-bottom: 0.5vh solid #ffebfd00;
+    border-bottom: 0.5vh solid rgba(255, 255, 255, 0);
 }
 
 @keyframes iconhoveranim{
@@ -37,7 +37,7 @@ img{
 }
 
 a{
-    color: #FFEBFD;
+    color: white;
     align-self: center;
     font-size:medium;
     font-family: 'Itim', cursive;
@@ -57,7 +57,7 @@ p{
 #cta{
     font-family: 'Itim', cursive;
     font-size: xx-large;
-    color: #FFEBFD;
+    color: white;
     margin-top: 5vh;
 }
 

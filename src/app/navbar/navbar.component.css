@@ -14,7 +14,7 @@ nav{
 
 a{
     font-family: 'Itim', cursive;
-    color: #FFEBFD;
+    color: white;
     font-size:x-large;
     border-bottom: 0.25vh solid #ff99f500;
 }
@@ -25,7 +25,7 @@ a:hover{
 
 p{
     font-family: 'Itim', cursive;
-    color: #FFEBFD;
+    color: white;
     font-size:x-large;
     margin: 0%;
     padding-left: 1vw;
